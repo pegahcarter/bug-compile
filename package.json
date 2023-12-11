@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "preinstall": "npx only-allow pnpm"
+    },
+    "dependencies": {
+        "ds-test": "github:dapphub/ds-test",
+        "forge-std": "github:foundry-rs/forge-std#e8a047e3f40f13fa37af6fe14e6e06283d9a060e",
+        "frax-std": "github.com:fraxfinance/frax-standard-solidity"
+    }
+}
