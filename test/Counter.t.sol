@@ -5,6 +5,8 @@ import {Test, console2} from "forge-std/Test.sol";
 import {Deploy} from "script/Deploy.s.sol";
 import {Counter} from "src/Counter.sol";
 
+import {FraxTest} from "frax-std/FraxTest.sol";
+
 contract CounterTest is Test, Deploy {
   function setUp() public {
     Deploy.run();

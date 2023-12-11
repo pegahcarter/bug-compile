@@ -3,8 +3,9 @@
         "preinstall": "npx only-allow pnpm"
     },
     "dependencies": {
+        "@babel/core": "^7.23.6",
         "ds-test": "github:dapphub/ds-test",
         "forge-std": "github:foundry-rs/forge-std#e8a047e3f40f13fa37af6fe14e6e06283d9a060e",
-        "frax-std": "github.com:fraxfinance/frax-standard-solidity"
+        "frax-std": "github:fraxfinance/frax-standard-solidity#b99d6af999ab5046024981e4d6fcae7eafe5605c"
     }
 }
